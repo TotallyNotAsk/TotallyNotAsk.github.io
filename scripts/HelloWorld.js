@@ -129,7 +129,7 @@ $(document).keydown(function(e){
     
 
     //Letter row nr1 for keyboard
-    if(e.keyCode == 9){
+    if(e.keyCode == 8){
         e.preventDefault();
         document.getElementById("key_Tab").style.color = "green";
         document.getElementById("key_Tab").style.border = "solid green";
