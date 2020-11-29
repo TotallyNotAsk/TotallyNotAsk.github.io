@@ -339,11 +339,11 @@ $(document).keydown(function(e){
     
 
     //Check the f5 button without reloading the page (should be used on all function keys)
-    if(e.keyCode == 116){
+    /*if(e.keyCode == 116){
         e.preventDefault();
         document.getElementById("key_f5").style.color = "green";
         document.getElementById("key_f5").style.border = "solid green";
         return false;
         //<div_keys id="key_f5">F5</div_keys> (HTML code for the f5 button)
-    }
+    }*/
 });
