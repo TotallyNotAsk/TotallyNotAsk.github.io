@@ -296,6 +296,8 @@ $(document).keydown(function(e){
     if(e.keyCode == 16){
         document.getElementById("key_rShift").style.color = "green";
         document.getElementById("key_rShift").style.border = "solid green";
+        document.getElementById("key_lShift").style.color = "green";
+        document.getElementById("key_lShift").style.border = "solid green";
     }
     if(e.keyCode == 38){
         document.getElementById("key_Up").style.color = "green";
