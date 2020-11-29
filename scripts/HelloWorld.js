@@ -187,8 +187,10 @@ $(document).keydown(function(e){
 
     //Letter row nr2 for keyboard
     if(e.keyCode == 91){
+        e.preventDefault();
         document.getElementById("key_Search").style.color = "green";
         document.getElementById("key_Search").style.border = "solid green";
+        return false;
     }
     if(e.keyCode == 65){
         document.getElementById("key_a").style.color = "green";
