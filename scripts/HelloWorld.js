@@ -23,8 +23,10 @@ $(document).keydown(function(e){
         document.getElementById("key_Refresh").style.border = "solid green";
     }
     if(e.keyCode == 115){
+        e.preventDefault();
         document.getElementById("key_Fullscreen").style.color = "green";
         document.getElementById("key_Fullscreen").style.border = "solid green";
+        return false;
     }/*
     if(e.keyCode == ){
         document.getElementById("key_Windows").style.color = "green";
@@ -118,8 +120,10 @@ $(document).keydown(function(e){
 
     //Letter row nr1 for keyboard
     if(e.keyCode == 9){
+        e.preventDefault();
         document.getElementById("key_Tab").style.color = "green";
         document.getElementById("key_Tab").style.border = "solid green";
+        return false;
     }
     if(e.keyCode == 81){
         document.getElementById("key_q").style.color = "green";
