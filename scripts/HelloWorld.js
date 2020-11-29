@@ -2,9 +2,6 @@ $(document).ready(function(){
     //alert("Stavanger Kommune sin Chromebook tastatur tester")
 });
 
-var x = event.keyCode;
-console.log(x);
-
 $(document).keydown(function(e){
     //Top row for keyboard
     if(e.keyCode == 27){
