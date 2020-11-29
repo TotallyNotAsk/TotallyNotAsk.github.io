@@ -245,8 +245,7 @@ $(document).keydown(function(e){
     
 
     //Letter row nr3 for keyboard
-    if(e.keyCode == 60
-        ){
+    if(e.keyCode == 16){
         document.getElementById("key_lShift").style.color = "green";
         document.getElementById("key_lShift").style.border = "solid green";
     }
