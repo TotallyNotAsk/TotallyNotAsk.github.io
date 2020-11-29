@@ -49,19 +49,19 @@ $(document).keydown(function(e){
     if(e.keyCode == ){
         document.getElementById("key_UpBright").style.color = "green";
         document.getElementById("key_UpBright").style.border = "solid green";
-    }
-    if(e.keyCode == ){
+    }*/
+    if(e.keyCode == 173){
         document.getElementById("key_Mute").style.color = "green";
         document.getElementById("key_Mute").style.border = "solid green";
     }
-    if(e.keyCode == ){
+    if(e.keyCode == 174){
         document.getElementById("key_DownSound").style.color = "green";
         document.getElementById("key_DownSound").style.border = "solid green";
     }
-    if(e.keyCode == ){
+    if(e.keyCode == 175){
         document.getElementById("key_UpSound").style.color = "green";
         document.getElementById("key_UpSound").style.border = "solid green";
-    }
+    }/*
     if(e.keyCode == ){
         document.getElementById("key_Lock").style.color = "green";
         document.getElementById("key_Lock").style.border = "solid green";
