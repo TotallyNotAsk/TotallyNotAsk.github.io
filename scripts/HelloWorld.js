@@ -11,16 +11,22 @@ $(document).keydown(function(e){
         document.getElementById("key_Esc").style.border = "solid green";
     }
     if(e.keyCode == 166){
+        e.preventDefault();
         document.getElementById("key_BrowseBack").style.color = "green";
         document.getElementById("key_BrowseBack").style.border = "solid green";
+        return false;
     }
     if(e.keyCode == 167){
+        e.preventDefault();
         document.getElementById("key_BrowseForward").style.color = "green";
         document.getElementById("key_BrowseForward").style.border = "solid green";
+        return false;
     }
     if(e.keyCode == 168){
+        e.preventDefault();
         document.getElementById("key_Refresh").style.color = "green";
         document.getElementById("key_Refresh").style.border = "solid green";
+        return false;
     }
     if(e.keyCode == 115){
         e.preventDefault();
