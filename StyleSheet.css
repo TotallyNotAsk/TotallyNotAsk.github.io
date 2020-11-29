@@ -7,3 +7,15 @@ h1 {
     text-align: center;
     color: aqua;
 }
+
+div_keys{
+    width: 30px;
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+    padding: 8px;
+    margin: 3px;
+    text-align: center;
+    top: 5px;
+    font-weight: bold;
+}
