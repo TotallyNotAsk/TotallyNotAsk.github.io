@@ -177,9 +177,9 @@ $(document).keydown(function(e){
         document.getElementById("key_å").style.color = "green";
         document.getElementById("key_å").style.border = "solid green";
     }
-    if(e.keyCode == 186){
-        document.getElementById("key_186").style.color = "green";
-        document.getElementById("key_186").style.border = "solid green";
+    if(e.keyCode == 221){
+        document.getElementById("key_226").style.color = "green";
+        document.getElementById("key_226").style.border = "solid green";
     }
     
 
