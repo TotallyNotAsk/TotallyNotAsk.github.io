@@ -33,15 +33,19 @@ $(document).keydown(function(e){
         document.getElementById("key_Fullscreen").style.color = "green";
         document.getElementById("key_Fullscreen").style.border = "solid green";
         return false;
-    }/*
-    if(e.keyCode == ){
+    }
+    if(e.keyCode == 116){
+        e.preventDefault();
         document.getElementById("key_Windows").style.color = "green";
         document.getElementById("key_Windows").style.border = "solid green";
+        return false;
     }
-    if(e.keyCode == ){
+    if(e.keyCode == 117){
+        e.preventDefault();
         document.getElementById("key_DownBright").style.color = "green";
         document.getElementById("key_DownBright").style.border = "solid green";
-    }
+        return false;
+    }/*
     if(e.keyCode == ){
         document.getElementById("key_UpBright").style.color = "green";
         document.getElementById("key_UpBright").style.border = "solid green";
