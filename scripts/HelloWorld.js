@@ -245,11 +245,12 @@ $(document).keydown(function(e){
     
 
     //Letter row nr3 for keyboard
-    if(e.keyCode == 60){
+    if(e.keyCode == 60
+        ){
         document.getElementById("key_lShift").style.color = "green";
         document.getElementById("key_lShift").style.border = "solid green";
     }
-    if(e.keyCode == 226){
+    if(e.keyCode == 220){
         document.getElementById("key_226").style.color = "green";
         document.getElementById("key_226").style.border = "solid green";
     }
