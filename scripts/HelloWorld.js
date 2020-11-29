@@ -3,12 +3,6 @@ $(document).ready(function(){
 });
 
 $(document).keydown(function(e){
-    while (true){
-        e.keyCode(27) == true;
-    }
-});
-
-$(document).keydown(function(e){
     //Top row for keyboard
     if(e.keyCode == 27){
         document.getElementById("key_Esc").style.color = "green";
