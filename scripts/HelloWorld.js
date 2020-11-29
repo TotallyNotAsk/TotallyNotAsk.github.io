@@ -27,25 +27,25 @@ $(document).keydown(function(e){
         document.getElementById("key_Refresh").style.color = "green";
         document.getElementById("key_Refresh").style.border = "solid green";
         return false;
-    }
-    if(e.keyCode == 115){
+    }/*
+    if(e.keyCode == ){
         e.preventDefault();
         document.getElementById("key_Fullscreen").style.color = "green";
         document.getElementById("key_Fullscreen").style.border = "solid green";
         return false;
     }
-    if(e.keyCode == 116){
+    if(e.keyCode == ){
         e.preventDefault();
         document.getElementById("key_Windows").style.color = "green";
         document.getElementById("key_Windows").style.border = "solid green";
         return false;
     }
-    if(e.keyCode == 117){
+    if(e.keyCode == ){
         e.preventDefault();
         document.getElementById("key_DownBright").style.color = "green";
         document.getElementById("key_DownBright").style.border = "solid green";
         return false;
-    }/*
+    }
     if(e.keyCode == ){
         document.getElementById("key_UpBright").style.color = "green";
         document.getElementById("key_UpBright").style.border = "solid green";
