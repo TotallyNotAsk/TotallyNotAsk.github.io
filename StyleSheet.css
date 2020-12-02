@@ -11,13 +11,13 @@ div_keys{
 }
 
 .topnav{
-    background-color: black;
+    background-color: lightpink;
     overflow: hidden;
 }
 
 .topnav a{
     float: left;
-    color: lightpink;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,5 +26,5 @@ div_keys{
 
 .topnav a.active {
     background-color: aliceblue;
-    color: white;
+    color: black;
 }
