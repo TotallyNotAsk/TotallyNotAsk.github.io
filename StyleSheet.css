@@ -20,6 +20,19 @@ win_keys{
     text-align: center;
     top: 5px;
     font-weight: bold;
+    box-decoration-break: slice;
+}
+
+space_keys{
+    width: 30px;
+    color:white;
+    background-color: white;
+    border: solid white;
+    padding: 8px;
+    margin: 1px;
+    text-align: center;
+    top: 5px;
+    font-weight: bold;
 }
 
 .topnav{
