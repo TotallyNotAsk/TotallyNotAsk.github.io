@@ -10,6 +10,18 @@ div_keys{
     font-weight: bold;
 }
 
+win_keys{
+    width: 30px;
+    color: red;
+    background-color: white;
+    border: solid red;
+    padding: 8px;
+    margin: 1px;
+    text-align: center;
+    top: 5px;
+    font-weight: bold;
+}
+
 .topnav{
     background-color: rgb(24, 22, 22);
     overflow: hidden;
