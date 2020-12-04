@@ -12,6 +12,7 @@ div_keys{
 
 win_keys{
     width: 30px;
+    height: 30px;
     color: red;
     background-color: white;
     border: solid red;
