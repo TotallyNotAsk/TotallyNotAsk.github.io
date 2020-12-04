@@ -24,18 +24,6 @@ win_keys{
     box-decoration-break: slice;
 }
 
-space_keys{
-    width: 30px;
-    color:white;
-    background-color: white;
-    border: solid white;
-    padding: 8px;
-    margin: 1px;
-    text-align: center;
-    top: 5px;
-    font-weight: bold;
-}
-
 .topnav{
     background-color: rgb(24, 22, 22);
     overflow: hidden;
@@ -65,7 +53,80 @@ space_keys{
     display: table-cell;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
     width: 50px;
+    height: 50px;
+    border: solid red;
+    color: red;
+    box-sizing: border-box;
+    padding-top: 7px;
+    float: left;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.keyTab{
+    display: table-cell;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75px;
+    height: 50px;
+    border: solid red;
+    color: red;
+    box-sizing: border-box;
+    padding-top: 7px;
+    float: left;
+    margin-right: 5px;
+}
+
+.keyBack{
+    display: table-cell;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 50px;
+    border: solid red;
+    color: red;
+    box-sizing: border-box;
+    padding-top: 7px;
+    float: left;
+    margin-right: 5px;
+}
+
+
+.keyLock{
+    display: table-cell;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90px;
+    height: 50px;
+    border: solid red;
+    color: red;
+    box-sizing: border-box;
+    padding-top: 7px;
+    float: left;
+    margin-right: 5px;
+}
+
+.keyCtrl{
+    display: table-cell;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60px;
+    height: 50px;
+    border: solid red;
+    color: red;
+    box-sizing: border-box;
+    padding-top: 7px;
+    float: left;
+    margin-right: 5px;
+}
+
+.keyShift{
+    display: table-cell;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
     height: 50px;
     border: solid red;
     color: red;
@@ -83,4 +144,8 @@ space_keys{
 
 .spaceRight{
     margin-right: 30px;
+}
+
+.spaceRight2{
+    margin-right: 60px;
 }
