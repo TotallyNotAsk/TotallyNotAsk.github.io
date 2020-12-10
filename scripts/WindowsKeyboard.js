@@ -481,8 +481,8 @@ $(document).keydown(function(e){
         document.getElementById("lCtrl").style.border = "solid green";
     }
     if(e.keyCode == 18){
-        document.getElementById("lAlt").style.color = "green";
-        document.getElementById("lAlt").style.border = "solid green";
+        document.getElementById("Alt").style.color = "green";
+        document.getElementById("Alt").style.border = "solid green";
     }
     if(e.keyCode = 91){
         document.getElementById("lWin").style.color = "green";
@@ -495,8 +495,8 @@ $(document).keydown(function(e){
         document.getElementById("space").style.border = "solid green";
     }
     if(e.keyCode == 18){
-        document.getElementById("rAlt").style.color = "green";
-        document.getElementById("rAlt").style.border = "solid green";
+        document.getElementById("AltGr").style.color = "green";
+        document.getElementById("AltGr").style.border = "solid green";
     }
     if(e.keyCode = 91){
         document.getElementById("lWin").style.color = "green";
