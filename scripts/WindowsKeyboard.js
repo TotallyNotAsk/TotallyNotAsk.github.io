@@ -77,10 +77,8 @@ $(document).keydown(function(e){
         return false;
     }
     if(e.keyCode == 44){
-        e.preventDefault();
         document.getElementById("prtscr").style.color = "green";
         document.getElementById("prtscr").style.border = "solid green";
-        return false;
     }
     if(e.keyCode == 145){
         e.preventDefault();
