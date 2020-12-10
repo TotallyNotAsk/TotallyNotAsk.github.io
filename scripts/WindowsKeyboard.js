@@ -191,6 +191,108 @@ $(document).keydown(function(e){
     }
 
     //Num Keys
+    if(e.keyCode == 144){
+        e.preventDefault();
+        document.getElementById("NumLock").style.color = "green";
+        document.getElementById("NumLock").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 111){
+        e.preventDefault();
+        document.getElementById("numDiv").style.color = "green";
+        document.getElementById("numDiv").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 106){
+        e.preventDefault();
+        document.getElementById("numMult").style.color = "green";
+        document.getElementById("numMult").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 109){
+        e.preventDefault();
+        document.getElementById("numMin").style.color = "green";
+        document.getElementById("numMin").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 103){
+        e.preventDefault();
+        document.getElementById("num7").style.color = "green";
+        document.getElementById("num7").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 104){
+        e.preventDefault();
+        document.getElementById("num8").style.color = "green";
+        document.getElementById("num8").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 105){
+        e.preventDefault();
+        document.getElementById("num9").style.color = "green";
+        document.getElementById("num9").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 100){
+        e.preventDefault();
+        document.getElementById("num4").style.color = "green";
+        document.getElementById("num4").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 101){
+        e.preventDefault();
+        document.getElementById("num5").style.color = "green";
+        document.getElementById("num5").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 102){
+        e.preventDefault();
+        document.getElementById("num6").style.color = "green";
+        document.getElementById("num6").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 97 ){
+        e.preventDefault();
+        document.getElementById("num1").style.color = "green";
+        document.getElementById("num1").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 98){
+        e.preventDefault();
+        document.getElementById("num2").style.color = "green";
+        document.getElementById("num2").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 99){
+        e.preventDefault();
+        document.getElementById("num3").style.color = "green";
+        document.getElementById("num3").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 96){
+        e.preventDefault();
+        document.getElementById("num0").style.color = "green";
+        document.getElementById("num0").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 107){
+        e.preventDefault();
+        document.getElementById("numAdd").style.color = "green";
+        document.getElementById("numAdd").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 13){
+        e.preventDefault();
+        document.getElementById("numEnter").style.color = "green";
+        document.getElementById("numEnter").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 110){
+        e.preventDefault();
+        document.getElementById("num.").style.color = "green";
+        document.getElementById("num.").style.border = "solid green";
+        return false;
+    }
 
 
     //First Keyrow
@@ -309,5 +411,119 @@ $(document).keydown(function(e){
     if(e.keyCode == 13){
         document.getElementById("enter").style.color = "green";
         document.getElementById("enter").style.border = "solid green";
+    }
+
+    //Row 3 for Keyboard
+    if(e.keyCode == 16){
+        document.getElementById("rShift").style.color = "green";
+        document.getElementById("rShift").style.border = "solid green"
+        document.getElementById("lShift").style.color = "green";
+        document.getElementById("lShift").style.border = "solid green";
+    }
+    if(e.keyCode == 60){
+        document.getElementById("<").style.color = "green";
+        document.getElementById("<").style.border = "solid green";
+    }
+    if(e.keyCode == 90){
+        document.getElementById("z").style.color = "green";
+        document.getElementById("z").style.border = "solid green";
+    }
+    if(e.keyCode == 88){
+        document.getElementById("x").style.color = "green";
+        document.getElementById("x").style.border = "solid green";
+    }
+    if(e.keyCode == 67){
+        document.getElementById("c").style.color = "green";
+        document.getElementById("c").style.border = "solid green";
+    }
+    if(e.keyCode == 86){
+        document.getElementById("v").style.color = "green";
+        document.getElementById("v").style.border = "solid green";
+    }
+    if(e.keyCode == 66){
+        document.getElementById("b").style.color = "green";
+        document.getElementById("b").style.border = "solid green";
+    }
+    if(e.keyCode == 78){
+        document.getElementById("n").style.color = "green";
+        document.getElementById("n").style.border = "solid green";
+    }
+    if(e.keyCode == 77){
+        document.getElementById("m").style.color = "green";
+        document.getElementById("m").style.border = "solid green";
+    }
+    if(e.keyCode == 188){
+        document.getElementById(",").style.color = "green";
+        document.getElementById(",").style.border = "solid green";
+    }
+    if(e.keyCode == 190){
+        document.getElementById(".").style.color = "green";
+        document.getElementById(".").style.border = "solid green";
+    }
+    if(e.keyCode == 173){
+        document.getElementById("-").style.color = "green";
+        document.getElementById("-").style.border = "solid green";
+    }
+    if(e.keyCode == 16){
+        document.getElementById("rShift").style.color = "green";
+        document.getElementById("rShift").style.border = "solid green";
+        document.getElementById("lShift").style.color = "green";
+        document.getElementById("lShift").style.border = "solid green";
+    }
+    if(e.keyCode == 38){
+        document.getElementById("up").style.color = "green";
+        document.getElementById("up").style.border = "solid green";
+    }
+
+    //Bottom row for keyboard
+    if(e.keyCode == 17){
+        document.getElementById("lCtrl").style.color = "green";
+        document.getElementById("lCtrl").style.border = "solid green";
+    }
+    if(e.keyCode == 18){
+        document.getElementById("lAlt").style.color = "green";
+        document.getElementById("lAlt").style.border = "solid green";
+    }
+    if(e.keyCode = 91){
+        e.preventDefault();
+        document.getElementById("lWin").style.color = "green";
+        document.getElementById("lWin").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 32){
+        document.getElementById("space").style.color = "green";
+        document.getElementById("space").style.border = "solid green";
+    }
+    if(e.keyCode == 18){
+        document.getElementById("rAlt").style.color = "green";
+        document.getElementById("rAlt").style.border = "solid green";
+    }
+    if(e.keyCode = 91){
+        e.preventDefault();
+        document.getElementById("rWin").style.color = "green";
+        document.getElementById("rWin").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode = 93){
+        e.preventDefault();
+        document.getElementById("cont").style.color = "green";
+        document.getElementById("cont").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 17){
+        document.getElementById("rCtrl").style.color = "green";
+        document.getElementById("rCtrl").style.border = "solid green";
+    }
+    if(e.keyCode == 37){
+        document.getElementById("left").style.color = "green";
+        document.getElementById("left").style.border = "solid green";
+    }
+    if(e.keyCode == 40){
+        document.getElementById("down").style.color = "green";
+        document.getElementById("down").style.border = "solid green";
+    }
+    if(e.keyCode == 39){
+        document.getElementById("right").style.color = "green";
+        document.getElementById("right").style.border = "solid green";
     }
 });
