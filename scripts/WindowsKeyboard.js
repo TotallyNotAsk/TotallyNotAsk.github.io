@@ -566,7 +566,7 @@ $(document).keydown(function(e){
 
     //Bottom row for keyboard
     if(e.ctrlKey){
-        if (event.location == 1){
+        if (e.location == 1){
             document.getElementById("lCtrl").style.color = "green";
             document.getElementById("lCtrl").style.border = "solid green";
         }
