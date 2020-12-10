@@ -477,7 +477,7 @@ $(document).keydown(function(e){
     }
 
     //Bottom row for keyboard
-    if(e.keyCode == 17){
+    if(e.keyCode == 17 && e.keyLocation == 2){
         document.getElementById("lCtrl").style.color = "green";
         document.getElementById("lCtrl").style.border = "solid green";
     }
@@ -518,7 +518,7 @@ $(document).keydown(function(e){
         return false;
     }
 
-    if(e.keyCode == 17 && e.keyLocation == 2){
+    if(e.keyCode == 17){
         document.getElementById("rCtrl").style.color = "green";
         document.getElementById("rCtrl").style.border = "solid green";
     }
