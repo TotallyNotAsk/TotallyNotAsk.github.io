@@ -518,7 +518,7 @@ $(document).keydown(function(e){
         return false;
     }
 
-    if(e.keyCode == 17){
+    if(e.keyCode == 17 && e.keyLocation == 2){
         document.getElementById("rCtrl").style.color = "green";
         document.getElementById("rCtrl").style.border = "solid green";
     }
