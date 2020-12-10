@@ -565,10 +565,10 @@ $(document).keydown(function(e){
     }
 
     //Bottom row for keyboard
-    /*if(e.ctrlKey){
+    if(e.ctrlKey){
         document.getElementById("lCtrl").style.color = "green";
         document.getElementById("lCtrl").style.border = "solid green";
-    }*/
+    }
     
     if(e.keyCode == 18){
         document.getElementById("Alt").style.color = "green";
@@ -606,10 +606,10 @@ $(document).keydown(function(e){
         return false;
     }
 
-    /*if(e.keyCode == 17){
+    if(e.keyCode == 17){
         document.getElementById("rCtrl").style.color = "green";
         document.getElementById("rCtrl").style.border = "solid green";
-    }*/
+    }
 
     if(e.keyCode == 37){
         document.getElementById("left").style.color = "green";
@@ -625,11 +625,4 @@ $(document).keydown(function(e){
         document.getElementById("right").style.color = "green";
         document.getElementById("right").style.border = "solid green";
     }
-
-    if(e.ctrlKey){
-        if(e.ctrlLeft){
-            alert("TEST");
-        }
-    }
-
 });
