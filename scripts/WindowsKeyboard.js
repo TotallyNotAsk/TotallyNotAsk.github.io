@@ -150,6 +150,10 @@ $(document).keydown(function(e){
     if(e.keyCode == 8){
         document.getElementById("BackSpace").style.color = "green";
         document.getElementById("BackSpace").style.border = "solid green";
+    }    
+    if(e.keyCode == 13){
+        document.getElementById("enter").style.color = "green";
+        document.getElementById("enter").style.border = "solid green";
     }
 
     //Misc Keys
@@ -408,10 +412,7 @@ $(document).keydown(function(e){
         document.getElementById("key_222").style.border = "solid green";
         return false;
     }
-    if(e.keyCode == 13){
-        document.getElementById("enter").style.color = "green";
-        document.getElementById("enter").style.border = "solid green";
-    }
+
 
     //Row 3 for Keyboard
     if(e.keyCode == 16){
