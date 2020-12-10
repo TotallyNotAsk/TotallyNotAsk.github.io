@@ -150,18 +150,38 @@ win_keys{
     margin-right: 5px;
 }
 
-.keyLong{
+.keyLong1{
     display: table-cell;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     width: 50px;
-    height: 100px;
+    height: 110px;
     border: solid red;
     color: red;
     box-sizing: border-box;
     padding-top: 7px;
     float: left;
     margin-right: 5px;
+    position: relative;
+    left: 1210px;
+    bottom: 235px;
+}
+
+.keyLong2{
+    display: table-cell;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50px;
+    height: 110px;
+    border: solid red;
+    color: red;
+    box-sizing: border-box;
+    padding-top: 7px;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    left: 1155px;
+    bottom: 115px;
 }
 
 .keyZero{
@@ -194,6 +214,14 @@ win_keys{
 
 .spaceRight3{
     margin-right: 85px;
+}
+
+.spaceRight4{
+    margin-right: 290px;
+}
+
+.spaceRight5{
+    margin-right: 35px;
 }
 
 .testBox{
