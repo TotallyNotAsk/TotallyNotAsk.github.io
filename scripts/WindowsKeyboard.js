@@ -154,4 +154,100 @@ $(document).keydown(function(e){
         document.getElementById("BackSpace").style.border = "solid green";
     }
 
+    //Misc Keys
+    if(e.keyCode == 45){
+        e.preventDefault();
+        document.getElementById("insert").style.color = "green";
+        document.getElementById("insert").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 36){
+        e.preventDefault();
+        document.getElementById("home").style.color = "green";
+        document.getElementById("home").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 33){
+        e.preventDefault();
+        document.getElementById("PageUp").style.color = "green";
+        document.getElementById("PageUp").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 46){
+        e.preventDefault();
+        document.getElementById("del").style.color = "green";
+        document.getElementById("del").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 35){
+        e.preventDefault();
+        document.getElementById("end").style.color = "green";
+        document.getElementById("end").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 34){
+        e.preventDefault();
+        document.getElementById("PageDown").style.color = "green";
+        document.getElementById("PageDown").style.border = "solid green";
+        return false;
+    }
+
+    //Num Keys
+
+
+    //First Keyrow
+    if(e.keyCode == 9){
+        e.preventDefault();
+        document.getElementById("Tab").style.color = "green";
+        document.getElementById("Tab").style.border = "solid green";
+        return false;
+    }
+    if(e.keyCode == 81){
+        document.getElementById("q").style.color = "green";
+        document.getElementById("q").style.border = "solid green";
+    }
+    if(e.keyCode == 87){
+        document.getElementById("w").style.color = "green";
+        document.getElementById("w").style.border = "solid green";
+    }
+    if(e.keyCode == 69){
+        document.getElementById("e").style.color = "green";
+        document.getElementById("e").style.border = "solid green";
+    }
+    if(e.keyCode == 82){
+        document.getElementById("r").style.color = "green";
+        document.getElementById("r").style.border = "solid green";
+    }
+    if(e.keyCode == 84){
+        document.getElementById("t").style.color = "green";
+        document.getElementById("t").style.border = "solid green";
+    }
+    if(e.keyCode == 89){
+        document.getElementById("y").style.color = "green";
+        document.getElementById("y").style.border = "solid green";
+    }
+    if(e.keyCode == 85){
+        document.getElementById("u").style.color = "green";
+        document.getElementById("u").style.border = "solid green";
+    }
+    if(e.keyCode == 73){
+        document.getElementById("i").style.color = "green";
+        document.getElementById("i").style.border = "solid green";
+    }
+    if(e.keyCode == 79){
+        document.getElementById("o").style.color = "green";
+        document.getElementById("o").style.border = "solid green";
+    }
+    if(e.keyCode == 80){
+        document.getElementById("p").style.color = "green";
+        document.getElementById("p").style.border = "solid green";
+    }
+    if(e.keyCode == 221){
+        document.getElementById("å").style.color = "green";
+        document.getElementById("å").style.border = "solid green";
+    }
+    if(e.keyCode == 160){
+        document.getElementById("key_160").style.color = "green";
+        document.getElementById("key_160").style.border = "solid green";
+    }
 });
