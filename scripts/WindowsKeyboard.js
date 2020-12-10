@@ -488,6 +488,8 @@ $(document).keydown(function(e){
         e.preventDefault();
         document.getElementById("lWin").style.color = "green";
         document.getElementById("lWin").style.border = "solid green";
+        document.getElementById("rWin").style.color = "green";
+        document.getElementById("rWin").style.border = "solid green";
         return false;
     }
     if(e.keyCode == 32){
@@ -500,6 +502,8 @@ $(document).keydown(function(e){
     }
     if(e.keyCode = 91){
         e.preventDefault();
+        document.getElementById("lWin").style.color = "green";
+        document.getElementById("lWin").style.border = "solid green";
         document.getElementById("rWin").style.color = "green";
         document.getElementById("rWin").style.border = "solid green";
         return false;
