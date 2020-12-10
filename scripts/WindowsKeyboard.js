@@ -478,7 +478,7 @@ $(document).keydown(function(e){
 
     //Bottom row for keyboard
     if(e.keyCode == 17){
-        if (event.location == 1){
+        if (event.location == 2){
             document.getElementById("lCtrl").style.color = "green";
             document.getElementById("lCtrl").style.border = "solid green";
         }
