@@ -626,12 +626,10 @@ $(document).keydown(function(e){
         document.getElementById("right").style.border = "solid green";
     }
 
-});
-
-$(document).bind('click', function(a){
-    if(a.ctrlKey){
-        if(a.ctrlLeft){
+    if(e.ctrlKey){
+        if(e.ctrlLeft){
             alert("TEST");
         }
     }
+
 });
