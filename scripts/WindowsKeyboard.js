@@ -301,8 +301,10 @@ $(document).keydown(function(e){
         document.getElementById("æ").style.border = "solid green";
     }
     if(e.keyCode == 222){
+        e.preventDefault();
         document.getElementById("key_222").style.color = "green";
         document.getElementById("key_222").style.border = "solid green";
+        return false;
     }
     if(e.keyCode == 13){
         document.getElementById("enter").style.color = "green";
