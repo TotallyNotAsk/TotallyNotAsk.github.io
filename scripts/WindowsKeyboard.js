@@ -628,7 +628,7 @@ $(document).keydown(function(e){
 
 });
 
-$('#doc').bind('click', function(a){
+$(document).bind('click', function(a){
     if(a.ctrlKey){
         if(a.ctrlLeft){
             alert("TEST");
