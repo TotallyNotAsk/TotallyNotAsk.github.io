@@ -145,9 +145,9 @@ $(document).keydown(function(e){
         document.getElementById("+").style.color = "green";
         document.getElementById("+").style.border = "solid green";
     }
-    if(e.keyCode == 219){
-        document.getElementById("219").style.color = "green";
-        document.getElementById("219").style.border = "solid green";
+    if(e.keyCode == 220){
+        document.getElementById("220").style.color = "green";
+        document.getElementById("220").style.border = "solid green";
     }
     if(e.keyCode == 8){
         document.getElementById("BackSpace").style.color = "green";
