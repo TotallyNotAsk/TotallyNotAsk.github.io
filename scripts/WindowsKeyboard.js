@@ -1,5 +1,5 @@
 $(document).keydown(function(e){
-    
+
     //FunctionRow
     if(e.keyCode == 27){
         document.getElementById("key_Esc").style.color = "green";
@@ -566,10 +566,8 @@ $(document).keydown(function(e){
 
     //Bottom row for keyboard
     if(e.keyCode == 17){
-        if (event.location == 2){
-            document.getElementById("lCtrl").style.color = "green";
-            document.getElementById("lCtrl").style.border = "solid green";
-        }
+        document.getElementById("lCtrl").style.color = "green";
+         document.getElementById("lCtrl").style.border = "solid green";
         
     }
     
