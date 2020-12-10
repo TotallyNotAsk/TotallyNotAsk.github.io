@@ -1,5 +1,5 @@
 $(document).keydown(function(e){
-    //Top row for keyboard
+    //FunctionRow
     if(e.keyCode == 27){
         document.getElementById("key_Esc").style.color = "green";
         document.getElementById("key_Esc").style.border = "solid green";
@@ -95,5 +95,63 @@ $(document).keydown(function(e){
         return false;
     }
 
+    //NumRow
+     //Number row for keyboard
+     if(e.keyCode == 172){
+        document.getElementById("key_|").style.color = "green";
+        document.getElementById("key_|").style.border = "solid green";
+    }
+    if(e.keyCode == 49){
+        document.getElementById("1").style.color = "green";
+        document.getElementById("1").style.border = "solid green";
+    }
+    if(e.keyCode == 50){
+        document.getElementById("2").style.color = "green";
+        document.getElementById("2").style.border = "solid green";
+    }
+    if(e.keyCode == 51){
+        document.getElementById("3").style.color = "green";
+        document.getElementById("3").style.border = "solid green";
+    }
+    if(e.keyCode == 52){
+        document.getElementById("4").style.color = "green";
+        document.getElementById("4").style.border = "solid green";
+    }
+    if(e.keyCode == 53){
+        document.getElementById("5").style.color = "green";
+        document.getElementById("5").style.border = "solid green";
+    }
+    if(e.keyCode == 54){
+        document.getElementById("6").style.color = "green";
+        document.getElementById("6").style.border = "solid green";
+    }
+    if(e.keyCode == 55){
+        document.getElementById("7").style.color = "green";
+        document.getElementById("7").style.border = "solid green";
+    }
+    if(e.keyCode == 56){
+        document.getElementById("8").style.color = "green";
+        document.getElementById("8").style.border = "solid green";
+    }
+    if(e.keyCode == 57){
+        document.getElementById("9").style.color = "green";
+        document.getElementById("9").style.border = "solid green";
+    }
+    if(e.keyCode == 48){
+        document.getElementById("0").style.color = "green";
+        document.getElementById("0").style.border = "solid green";
+    }
+    if(e.keyCode == 171){
+        document.getElementById("+").style.color = "green";
+        document.getElementById("+").style.border = "solid green";
+    }
+    if(e.keyCode == 219){
+        document.getElementById("219").style.color = "green";
+        document.getElementById("219").style.border = "solid green";
+    }
+    if(e.keyCode == 8){
+        document.getElementById("BackSpace").style.color = "green";
+        document.getElementById("BackSpace").style.border = "solid green";
+    }
 
 });
