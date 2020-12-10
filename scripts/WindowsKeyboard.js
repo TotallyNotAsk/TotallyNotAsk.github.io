@@ -485,12 +485,10 @@ $(document).keydown(function(e){
         document.getElementById("lAlt").style.border = "solid green";
     }
     if(e.keyCode = 91){
-        e.preventDefault();
         document.getElementById("lWin").style.color = "green";
         document.getElementById("lWin").style.border = "solid green";
         document.getElementById("rWin").style.color = "green";
         document.getElementById("rWin").style.border = "solid green";
-        return false;
     }
     if(e.keyCode == 32){
         document.getElementById("space").style.color = "green";
@@ -501,12 +499,10 @@ $(document).keydown(function(e){
         document.getElementById("rAlt").style.border = "solid green";
     }
     if(e.keyCode = 91){
-        e.preventDefault();
         document.getElementById("lWin").style.color = "green";
         document.getElementById("lWin").style.border = "solid green";
         document.getElementById("rWin").style.color = "green";
         document.getElementById("rWin").style.border = "solid green";
-        return false;
     }
     if(e.keyCode = 93){
         e.preventDefault();
