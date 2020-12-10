@@ -77,8 +77,8 @@ $(document).keydown(function(e){
         return false;
     }
     if(e.keyCode == 44){
-        document.getElementById("prtscr").style.color = "green";
-        document.getElementById("prtscr").style.border = "solid green";
+        document.getElementById("prt").style.color = "green";
+        document.getElementById("prt").style.border = "solid green";
     }
     if(e.keyCode == 145){
         e.preventDefault();
@@ -531,7 +531,7 @@ $(document).keydown(function(e){
         document.getElementById("down").style.color = "green";
         document.getElementById("down").style.border = "solid green";
     }
-    
+
     if(e.keyCode == 39){
         document.getElementById("right").style.color = "green";
         document.getElementById("right").style.border = "solid green";
