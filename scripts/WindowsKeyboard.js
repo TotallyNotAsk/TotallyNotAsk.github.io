@@ -480,50 +480,61 @@ $(document).keydown(function(e){
         document.getElementById("lCtrl").style.color = "green";
         document.getElementById("lCtrl").style.border = "solid green";
     }
+    
     if(e.keyCode == 18){
         document.getElementById("Alt").style.color = "green";
         document.getElementById("Alt").style.border = "solid green";
     }
+
     if(e.keyCode = 91){
         document.getElementById("lWin").style.color = "green";
         document.getElementById("lWin").style.border = "solid green";
         document.getElementById("rWin").style.color = "green";
         document.getElementById("rWin").style.border = "solid green";
     }
+
     if(e.keyCode == 32){
         document.getElementById("space").style.color = "green";
         document.getElementById("space").style.border = "solid green";
     }
+
     if(e.keyCode == 18){
         document.getElementById("AltGr").style.color = "green";
         document.getElementById("AltGr").style.border = "solid green";
     }
+    
     if(e.keyCode = 91){
         document.getElementById("lWin").style.color = "green";
         document.getElementById("lWin").style.border = "solid green";
         document.getElementById("rWin").style.color = "green";
         document.getElementById("rWin").style.border = "solid green";
     }
+
     if(e.keyCode = 93){
         e.preventDefault();
         document.getElementById("cont").style.color = "green";
         document.getElementById("cont").style.border = "solid green";
         return false;
     }
+
     if(e.keyCode == 17){
         document.getElementById("rCtrl").style.color = "green";
         document.getElementById("rCtrl").style.border = "solid green";
     }
+
     if(e.keyCode == 37){
         document.getElementById("left").style.color = "green";
         document.getElementById("left").style.border = "solid green";
     }
+
     if(e.keyCode == 40){
         document.getElementById("down").style.color = "green";
         document.getElementById("down").style.border = "solid green";
     }
+    
     if(e.keyCode == 39){
         document.getElementById("right").style.color = "green";
         document.getElementById("right").style.border = "solid green";
     }
+
 });
