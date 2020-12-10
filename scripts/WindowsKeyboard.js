@@ -477,9 +477,12 @@ $(document).keydown(function(e){
     }
 
     //Bottom row for keyboard
-    if(e.keyCode == 17 && e.keyLocation == 2){
-        document.getElementById("lCtrl").style.color = "green";
-        document.getElementById("lCtrl").style.border = "solid green";
+    if(e.keyCode == 17){
+        if (event.location == 1){
+            document.getElementById("lCtrl").style.color = "green";
+            document.getElementById("lCtrl").style.border = "solid green";
+        }
+        
     }
     
     if(e.keyCode == 18){
