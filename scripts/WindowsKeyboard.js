@@ -487,7 +487,7 @@ $(document).keydown(function(e){
         document.getElementById("Alt").style.border = "solid green";
     }
 
-    if(e.keyCode = 91){
+    if(e.keyCode == 91){
         document.getElementById("lWin").style.color = "green";
         document.getElementById("lWin").style.border = "solid green";
         document.getElementById("rWin").style.color = "green";
@@ -504,14 +504,14 @@ $(document).keydown(function(e){
         document.getElementById("AltGr").style.border = "solid green";
     }
     
-    if(e.keyCode = 91){
+    if(e.keyCode == 91){
         document.getElementById("lWin").style.color = "green";
         document.getElementById("lWin").style.border = "solid green";
         document.getElementById("rWin").style.color = "green";
         document.getElementById("rWin").style.border = "solid green";
     }
 
-    if(e.keyCode = 93){
+    if(e.keyCode == 93){
         e.preventDefault();
         document.getElementById("cont").style.color = "green";
         document.getElementById("cont").style.border = "solid green";
