@@ -59,11 +59,11 @@ $(document).keydown(function(e){
     if(e.keyCode == 175){
         document.getElementById("key_UpSound").style.color = "green";
         document.getElementById("key_UpSound").style.border = "solid green";
-    }/*
-    if(e.keyCode == ){
+    }
+    if(e.keyCode == 17 && e.keyCode == 16 && e.keyCode == 76){
         document.getElementById("key_Lock").style.color = "green";
         document.getElementById("key_Lock").style.border = "solid green";
-    }*/
+    }
     
 
 
