@@ -61,8 +61,8 @@ $(document).keydown(function(e){
         document.getElementById("key_UpSound").style.border = "solid green";
     }
     if(e.keyCode == 17){
-        document.getElementById("key_Lock").style.color = "green";
         document.getElementById("key_Lock").style.border = "solid green";
+        document.getElementById("key_Lock").style.color = "green";
     }
     
 
