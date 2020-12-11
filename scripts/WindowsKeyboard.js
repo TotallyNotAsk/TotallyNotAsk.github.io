@@ -490,9 +490,7 @@ $(document).keydown(function(e){
 
 
     //Row 3 for Keyboard
-    if(e.keyCode == 16){
-        document.getElementById("rShift").style.color = "green";
-        document.getElementById("rShift").style.border = "solid green"
+    if(e.code === "shiftLeft"){
         document.getElementById("lShift").style.color = "green";
         document.getElementById("lShift").style.border = "solid green";
     }
@@ -552,11 +550,9 @@ $(document).keydown(function(e){
         document.getElementById("-").style.border = "solid green";
     }
 
-    if(e.keyCode == 16){
+    if(e.code === "shiftRight"){
         document.getElementById("rShift").style.color = "green";
         document.getElementById("rShift").style.border = "solid green";
-        document.getElementById("lShift").style.color = "green";
-        document.getElementById("lShift").style.border = "solid green";
     }
 
     if(e.keyCode == 38){
