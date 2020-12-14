@@ -543,3 +543,11 @@ $(document).keydown(function(event){
         document.getElementById("rCtrl").style.border = "solid green";
     }
 });
+
+$(document).keyup(function(event){
+    if (event.code === 'PrintScreen'){
+        event.preventDefault();
+        document.getElementById("prt").style.color = "green";
+        document.getElementById("prt").style.border = "solid green";
+    }
+});
