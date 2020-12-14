@@ -1,4 +1,4 @@
-$(window).addEventListeners('keydown', (event) => {
+window.addEventListeners('keydown', (event) => {
     //Function keys row
     if (event.code === 'F1'){
         event.preventDefault();
