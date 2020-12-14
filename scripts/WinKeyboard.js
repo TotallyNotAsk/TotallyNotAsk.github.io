@@ -273,6 +273,28 @@ $(document).keydown(function(event){
         document.getElementById("num0").style.border = "solid green";
     }
 
+    //Arrow Keys
+    if (event.code === 'ArrowUp'){
+        event.preventDefault();
+        document.getElementById("up").style.color = "green";
+        document.getElementById("up").style.border = "solid green";
+    }
+    if (event.code === 'ArrowDown'){
+        event.preventDefault();
+        document.getElementById("down").style.color = "green";
+        document.getElementById("down").style.border = "solid green";
+    }
+    if (event.code === 'ArrowLeft'){
+        event.preventDefault();
+        document.getElementById("left").style.color = "green";
+        document.getElementById("left").style.border = "solid green";
+    }
+    if (event.code === 'ArrowRight'){
+        event.preventDefault();
+        document.getElementById("right").style.color = "green";
+        document.getElementById("right").style.border = "solid green";
+    }
+
     // First letter row
     if (event.code === 'Tab'){
         event.preventDefault();
@@ -410,5 +432,114 @@ $(document).keydown(function(event){
         event.preventDefault();
         document.getElementById("key_222").style.color = "green";
         document.getElementById("key_222").style.border = "solid green";
+    }
+
+    //Third Key Row
+    if (event.code === 'ShiftLeft'){
+        event.preventDefault();
+        document.getElementById("lShift").style.color = "green";
+        document.getElementById("lShift").style.border = "solid green";
+    }
+    if (event.code === 'IntlBackslash'){
+        event.preventDefault();
+        document.getElementById("<").style.color = "green";
+        document.getElementById("<").style.border = "solid green";
+    }
+    if (event.code === 'Keyz'){
+        event.preventDefault();
+        document.getElementById("z").style.color = "green";
+        document.getElementById("z").style.border = "solid green";
+    }
+    if (event.code === 'KeyX'){
+        event.preventDefault();
+        document.getElementById("x").style.color = "green";
+        document.getElementById("x").style.border = "solid green";
+    }
+    if (event.code === 'KeyC'){
+        event.preventDefault();
+        document.getElementById("c").style.color = "green";
+        document.getElementById("c").style.border = "solid green";
+    }
+    if (event.code === 'KeyV'){
+        event.preventDefault();
+        document.getElementById("v").style.color = "green";
+        document.getElementById("v").style.border = "solid green";
+    }
+    if (event.code === 'KeyB'){
+        event.preventDefault();
+        document.getElementById("b").style.color = "green";
+        document.getElementById("b").style.border = "solid green";
+    }
+    if (event.code === 'KeyN'){
+        event.preventDefault();
+        document.getElementById("n").style.color = "green";
+        document.getElementById("n").style.border = "solid green";
+    }
+    if (event.code === 'KeyM'){
+        event.preventDefault();
+        document.getElementById("m").style.color = "green";
+        document.getElementById("m").style.border = "solid green";
+    }
+    if (event.code === 'Comma'){
+        event.preventDefault();
+        document.getElementById(",").style.color = "green";
+        document.getElementById(",").style.border = "solid green";
+    }
+    if (event.code === 'Period'){
+        event.preventDefault();
+        document.getElementById(".").style.color = "green";
+        document.getElementById(".").style.border = "solid green";
+    }
+    if (event.code === 'Slash'){
+        event.preventDefault();
+        document.getElementById("-").style.color = "green";
+        document.getElementById("-").style.border = "solid green";
+    }
+    if (event.code === 'ShiftRight'){
+        event.preventDefault();
+        document.getElementById("rShift").style.color = "green";
+        document.getElementById("rShift").style.border = "solid green";
+    }
+
+    //Bottow row
+    if (event.code === 'ControlLeft'){
+        event.preventDefault();
+        document.getElementById("lCtrl").style.color = "green";
+        document.getElementById("lCtrl").style.border = "solid green";
+    }
+    if (event.code === 'OSLeft'){
+        event.preventDefault();
+        document.getElementById("lWin").style.color = "green";
+        document.getElementById("lWin").style.border = "solid green";
+    }
+    if (event.code === 'AltLeft'){
+        event.preventDefault();
+        document.getElementById("Alt").style.color = "green";
+        document.getElementById("Alt").style.border = "solid green";
+    }
+    if (event.code === 'Space'){
+        event.preventDefault();
+        document.getElementById("space").style.color = "green";
+        document.getElementById("space").style.border = "solid green";
+    }
+    if (event.code === 'AltRight'){
+        event.preventDefault();
+        document.getElementById("AltGr").style.color = "green";
+        document.getElementById("AltGr").style.border = "solid green";
+    }
+    if (event.code === 'OSRight'){
+        event.preventDefault();
+        document.getElementById("rWin").style.color = "green";
+        document.getElementById("rWin").style.border = "solid green";
+    }
+    if (event.code === 'ContextMenu'){
+        event.preventDefault();
+        document.getElementById("cont").style.color = "green";
+        document.getElementById("cont").style.border = "solid green";
+    }
+    if (event.code === 'ControlRight'){
+        event.preventDefault();
+        document.getElementById("rCtrl").style.color = "green";
+        document.getElementById("rCtrl").style.border = "solid green";
     }
 });
