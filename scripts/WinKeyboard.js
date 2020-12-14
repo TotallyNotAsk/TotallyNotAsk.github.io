@@ -183,6 +183,7 @@ $(document).keydown(function(event){
         event.preventDefault();
         document.getElementById("BackSpace").style.color = "green";
         document.getElementById("BackSpace").style.border = "solid green";
+        return false;
     }
 
 });
