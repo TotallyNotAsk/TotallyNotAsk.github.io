@@ -179,7 +179,7 @@ $(document).keydown(function(event){
         document.getElementById("220").style.color = "green";
         document.getElementById("220").style.border = "solid green";
     }
-    if (event.code === 'BackSpace'){
+    if (event.code === 'Backspace'){
         event.preventDefault();
         document.getElementById("BackSpace").style.color = "green";
         document.getElementById("BackSpace").style.border = "solid green";
@@ -306,7 +306,7 @@ $(document).keydown(function(event){
         document.getElementById("q").style.color = "green";
         document.getElementById("q").style.border = "solid green";
     }
-    if (event.code === 'Key"'){
+    if (event.code === 'KeyW"'){
         event.preventDefault();
         document.getElementById("w").style.color = "green";
         document.getElementById("w").style.border = "solid green";
@@ -445,7 +445,7 @@ $(document).keydown(function(event){
         document.getElementById("<").style.color = "green";
         document.getElementById("<").style.border = "solid green";
     }
-    if (event.code === 'Keyz'){
+    if (event.code === 'KeyZ'){
         event.preventDefault();
         document.getElementById("z").style.color = "green";
         document.getElementById("z").style.border = "solid green";
