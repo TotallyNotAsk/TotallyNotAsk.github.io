@@ -9,6 +9,7 @@ $(document).keydown(function(event){
         event.preventDefault();
         document.getElementById("BrowseBack").style.color = "green";
         document.getElementById("BrowseBack").style.border = "solid green";
+        return false;
     }
     if (event.keyCode == 167){
         event.preventDefault();
