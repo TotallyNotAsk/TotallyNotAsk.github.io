@@ -12,7 +12,7 @@ $(document).keydown(function(event){
     }
     if (event.keyCode == 167){
         event.preventDefault();
-        document.getElementById("BorwseForward").style.color = "green";
+        document.getElementById("BrowseForward").style.color = "green";
         document.getElementById("BrowseForward").style.border = "solid green";
     }
     if (event.keyCode == 168){
