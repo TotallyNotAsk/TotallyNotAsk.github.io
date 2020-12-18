@@ -5,17 +5,17 @@ $(document).keydown(function(event){
         document.getElementById("key_Esc").style.color = "green";
         document.getElementById("key_Esc").style.border = "solid green";
     }
-    if (event.code === 'BrowserBack'){
+    if (event.keyCode == 166){
         event.preventDefault();
         document.getElementById("BrowseBack").style.color = "green";
         document.getElementById("BrowseBack").style.border = "solid green";
     }
-    if (event.code === 'BrowserForward'){
+    if (event.keyCode == 167){
         event.preventDefault();
         document.getElementById("BorwseForward").style.color = "green";
         document.getElementById("BrowseForward").style.border = "solid green";
     }
-    if (event.code === 'BrowserRefresh'){
+    if (event.keyCode == 168){
         event.preventDefault();
         document.getElementById("Refresh").style.color = "green";
         document.getElementById("Refresh").style.border = "solid green";
