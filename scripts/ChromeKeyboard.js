@@ -167,7 +167,7 @@ $(document).keydown(function(event){
         document.getElementById("q").style.color = "green";
         document.getElementById("q").style.border = "solid green";
     }
-    if (event.code === 'KeyW"'){
+    if (event.code === 'KeyW'){
         event.preventDefault();
         document.getElementById("w").style.color = "green";
         document.getElementById("w").style.border = "solid green";
