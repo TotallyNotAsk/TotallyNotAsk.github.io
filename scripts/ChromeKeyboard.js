@@ -14,6 +14,7 @@ $(document).keydown(function(event){
         event.preventDefault();
         document.getElementById("BrowseForward").style.color = "green";
         document.getElementById("BrowseForward").style.border = "solid green";
+        return false;
     }
     if (event.keyCode == 168){
         event.preventDefault();
