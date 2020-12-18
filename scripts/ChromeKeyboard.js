@@ -229,10 +229,10 @@ $(document).keydown(function(event){
     }
 
     //Second Letter Row
-    if (event.code === 'CapsLock'){
+    if (event.code === 'MetaLeft'){
         event.preventDefault();
-        document.getElementById("caps").style.color = "green";
-        document.getElementById("caps").style.border = "solid green";
+        document.getElementById("search").style.color = "green";
+        document.getElementById("search").style.border = "solid green";
     }
     if (event.code === 'KeyA'){
         event.preventDefault();
