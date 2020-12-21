@@ -1,13 +1,12 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Tastatur test</title>
         <link href="StyleSheet.css" rel="stylesheet">
     </head>
-
     <body>
-		<script src="/TotallyNotAsk.github.io/scripts/jquery-3.5.1.js"></script>
-        <script src="/TotallyNotAsk.github.io/scripts/ChromebookKeyboard.js"></script>
+        <script src="/TotallyNotAsk.github.io/scripts/jquery-3.5.1.js"></script>
+        <script src="/TotallyNotAsk.github.io/scripts/ChromeKeyboard.js"></script>
 
         <div class="topnav">
             <a href="/index.html">Home</a> 
@@ -19,115 +18,102 @@
             <h1>Chromebook Tastatur Test</h1>
         </div>
 
-        <br>
-
         <div>
-            <div_keys id="key_Esc">Esc</div_keys>
-            <div_keys id="key_BrowseBack">←</div_keys>
-            <div_keys id="key_BrowseForward">→</div_keys>
-            <div_keys id="key_Refresh">↻</div_keys>
-            <div_keys id="key_Fullscreen">◱</div_keys>
-            <div_keys id="key_Windows">▢||</div_keys>
-            <div_keys id="key_DownBright">🔅</div_keys>
-            <div_keys id="key_UpBright">🔆</div_keys>
-            <div_keys id="key_Mute">🔈</div_keys>
-            <div_keys id="key_DownSound">🔉</div_keys>
-            <div_keys id="key_UpSound">🔊</div_keys>
-            <div_keys id="key_Lock">🔒</div_keys>
-            <div_keys id="key_Test">Test</div_keys>
+            <div class="row">
+                <div id="key_Esc" class="chromeKey">Esc</div>
+                <div id="BrowseBack" class="chromeKey">←</div>
+                <div id="BrowseForward" class="chromeKey">→</div>
+                <div id="Refresh" class="chromeKey">↻</div>
+                <div id="fullscreen" class="chromeKey">◱</div>
+                <div id="WinTab" class="chromeKey">▢||</div>
+                <div id="BrightnessDown" class="chromeKey">🔅</div>
+                <div id="BrightnessUp" class="chromeKey">🔆</div>
+                <div id="mute" class="chromeKey">🔈</div>
+                <div id="SoundDown" class="chromeKey">🔉</div>
+                <div id="SoundUp" class="chromeKey">🔊</div>
+                <div id="lock" class="chromeKey">🔒</div>
+            </div>
+
+            <div class="row">
+                <div id="key_|" class="key1">|§</div>
+                <div id="1" class="key1">1</div>
+                <div id="2" class="key1">2</div>
+                <div id="3" class="key1">3</div>
+                <div id="4" class="key1">4</div>
+                <div id="5" class="key1">5</div>
+                <div id="6" class="key1">6</div>
+                <div id="7" class="key1">7</div>
+                <div id="8" class="key1">8</div>
+                <div id="9" class="key1">9</div>
+                <div id="0" class="key1">0</div>
+                <div id="+" class="key1">+</div>
+                <div id="220" class="key1">`<br>´</div>
+                <div id="BackSpace" class="keyTab">Back <br> ←</div>
+            </div>
+
+            <div class="row">
+                <div id="Tab" class="keyTab">Tab ↹</div>
+                <div id="q" class="key1">Q</div>
+                <div id="w" class="key1">W</div>
+                <div id="e" class="key1">E</div>
+                <div id="r" class="key1">R</div>
+                <div id="t" class="key1">T</div>
+                <div id="y" class="key1">Y</div>
+                <div id="u" class="key1">U</div>
+                <div id="i" class="key1">I</div>
+                <div id="o" class="key1">O</div>
+                <div id="p" class="key1">P</div>
+                <div id="å" class="key1">Å</div>
+                <div id="key_160" class="key1">^ ¨ ~</div>
+                <div id="enter" class="key1">Enter ↲</div>
+            </div>
+
+            <div class="row">
+                <div id="search" class="keyLock">Search</div>
+                <div id="a" class="key1">A</div>
+                <div id="s" class="key1">S</div>
+                <div id="d" class="key1">D</div>
+                <div id="f" class="key1">F</div>
+                <div id="g" class="key1">G</div>
+                <div id="h" class="key1">H</div>
+                <div id="j" class="key1">J</div>
+                <div id="k" class="key1">K</div>
+                <div id="l" class="key1">L</div>
+                <div id="ø" class="key1">Ø</div>
+                <div id="æ" class="key1">Æ</div>
+                <div id="key_222" class="key1">' *</div>
+            </div>
+
+            <div class="row">
+                <div id="lShift" class="keyCtrl">Shift ↑</div>
+                <div id="<" class="key1">< <br> > |</div>
+                <div id="z" class="key1">Z</div>
+                <div id="x" class="key1">X</div>
+                <div id="c" class="key1">C</div>
+                <div id="v" class="key1">V</div>
+                <div id="b" class="key1">B</div>
+                <div id="n" class="key1">N</div>
+                <div id="m" class="key1">M</div>
+                <div id="," class="key1">; <br> ,</div>
+                <div id="." class="key1">: <br> .</div>
+                <div id="-" class="key1">- <br> _</div>
+                <div id="rShift" class="chromeCtrl">Shift ↑</div>
+            </div>
+
+            <div class="row">
+                <div id="lCtrl" class="chromeCtrl">Ctrl</div>
+                <div id="Alt" class="keyZero">Alt</div>
+                <div id="space" class="chromeSpace">Space</div>
+                <div id="AltGr" class="key1">AltGr</div>
+                <div id="rCtrl" class="key1">Ctrl</div>
+                <div id="left" class="key1">←</div>
+                <div class="chromeArrow">
+                    <div id="up" class="chromeArrowKey">↑</div>
+                    <br class="br1">
+                    <div id="down" class="chromeArrowKey">↓</div>
+                </div>
+                <div id="right" class="key1">→</div>
+            </div>
         </div>
-
-        <br>
-        <br>
-
-        <div>
-            <div_keys id="key_|">|</div_keys>
-            <div_keys id="key_1">1</div_keys>
-            <div_keys id="key_2">2</div_keys>
-            <div_keys id="key_3">3</div_keys>
-            <div_keys id="key_4">4</div_keys>
-            <div_keys id="key_5">5</div_keys>
-            <div_keys id="key_6">6</div_keys>
-            <div_keys id="key_7">7</div_keys>
-            <div_keys id="key_8">8</div_keys>
-            <div_keys id="key_9">9</div_keys>
-            <div_keys id="key_0">0</div_keys>
-            <div_keys id="key_+">+?</div_keys>
-            <div_keys id="key_219">\</div_keys>
-            <div_keys id="key_BackSpace">Backspace</div_keys>
-        </div>
-
-        <br>
-        <br>
-
-        <div>
-            <div_keys id="key_Tab">TAB</div_keys>
-            <div_keys id="key_q">Q</div_keys>
-            <div_keys id="key_w">W</div_keys>
-            <div_keys id="key_e">E</div_keys>
-            <div_keys id="key_r">R</div_keys>
-            <div_keys id="key_t">T</div_keys>
-            <div_keys id="key_y">Y</div_keys>
-            <div_keys id="key_u">U</div_keys>
-            <div_keys id="key_i">I</div_keys>
-            <div_keys id="key_o">O</div_keys>
-            <div_keys id="key_p">P</div_keys>
-            <div_keys id="key_å">Å</div_keys>
-            <div_keys id="key_186">¨^~</div_keys>
-        </div>
-
-        <br>
-        <br>
-
-        <div>
-            <div_keys id="key_Search">Search</div_keys>
-            <div_keys id="key_a">A</div_keys>
-            <div_keys id="key_s">S</div_keys>
-            <div_keys id="key_d">D</div_keys>
-            <div_keys id="key_f">F</div_keys>
-            <div_keys id="key_g">G</div_keys>
-            <div_keys id="key_h">H</div_keys>
-            <div_keys id="key_j">J</div_keys>
-            <div_keys id="key_k">K</div_keys>
-            <div_keys id="key_l">L</div_keys>
-            <div_keys id="key_ø">Ø</div_keys>
-            <div_keys id="key_æ">Æ</div_keys>
-            <div_keys id="key_191">*</div_keys>
-            <div_keys id="key_Enter">Enter</div_keys>
-        </div>
-
-        <br>
-        <br>
-
-        <div>
-            <div_keys id="key_lShift">Shift</div_keys>
-            <div_keys id="key_226"><\|></div_keys>
-            <div_keys id="key_z">Z</div_keys>
-            <div_keys id="key_x">X</div_keys>
-            <div_keys id="key_c">C</div_keys>
-            <div_keys id="key_v">V</div_keys>
-            <div_keys id="key_b">B</div_keys>
-            <div_keys id="key_n">N</div_keys>
-            <div_keys id="key_m">M</div_keys>
-            <div_keys id="key_comma">,;</div_keys>
-            <div_keys id="key_period">.:</div_keys>
-            <div_keys id="key_-">-</div_keys>
-            <div_keys id="key_rShift">Shift</div_keys>
-            <div_keys id="key_Up">↑</div_keys>
-        </div>
-
-        <br>
-        <br>
-
-        <div>
-            <div_keys id="key_lCtrl">Ctrl</div_keys>
-            <div_keys id="key_lAlt">Alt</div_keys>
-            <div_keys id="key_Space">------------------------SPACE------------------------</div_keys>
-            <div_keys id="key_rAlt">Alt</div_keys>
-            <div_keys id="key_rCtrl">Ctrl</div_keys>
-            <div_keys id="key_Left">←</div_keys>
-            <div_keys id="key_Down">↓</div_keys>
-            <div_keys id="key_Right">→</div_keys>
-        </div>
-	</body>	
+    </body>
 </html>
