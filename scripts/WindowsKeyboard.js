@@ -1,6 +1,6 @@
 $(document).keydown(function(e){
 
-    //TODO: Skrive på nytt og bruke event.code isteden for key.code for å være mer spesfik - Må testes på et test prosjekt
+    //NOT IN USE
 
     //FunctionRow
     if(e.keyCode == 27){
